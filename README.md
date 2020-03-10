@@ -6,7 +6,7 @@ This is a MERN stack application from the "MERN Stack Front To Back" course. It 
 
 ## Quick Start
 
-```
+````
 # change default.json file in config folder
 
 # this file is located in config/default.json
@@ -15,7 +15,6 @@ This is a MERN stack application from the "MERN Stack Front To Back" course. It 
 
  "mongoURI": "mongodb://localhost/dev-social",
 
-```
 
 ```bash
 # Install server dependencies
@@ -31,7 +30,7 @@ npm run dev
 # Build for production
 cd client
 npm run build
-```
+````
 
 ## App Info
 
