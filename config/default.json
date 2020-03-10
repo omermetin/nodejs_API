@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://omrmtn:5oczxeSFOMzZQH7o@clusterforshop-z6b3q.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken",
-  "githubClientId": "280c9b965dd009ede581",
-  "githubSecret": "6a15aa536a299d41f9bd30156b87a43c61a4f908"
-}
