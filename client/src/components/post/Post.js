@@ -9,10 +9,12 @@ import CommentItem from '../post/CommentItem';
 import { getPost } from '../../actions/post';
 
 const Post = ({ getPost, post: { post, loading }, match }) => {
+  // useEffect(() => {
+  //   getPost(match.params.id);
+  // }, [getPost]);
   useEffect(() => {
     getPost(match.params.id);
-  }, [getPost]);
-
+  }, [getPost, match.params.id]);
   return loading || post === null ? (
     <Spinner />
   ) : (
@@ -40,7 +42,4 @@ const mapStateToProps = state => ({
   post: state.post
 });
 
-export default connect(
-  mapStateToProps,
-  { getPost }
-)(Post);
+export default connect(mapStateToProps, { getPost })(Post);
